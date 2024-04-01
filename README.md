@@ -1,10 +1,10 @@
 ## Hello! Welcome to my Repository <^^>
 
-**HTML code:** [notes.html](https://github.com/sinster23/Spotify-Clone/blob/main/spotify.html)
+**HTML code:** [noteapp.html](https://github.com/sinster23/Notesapp/blob/main/noteapp.html)
 
-**CSS code:** [style.css](https://github.com/sinster23/Spotify-Clone/blob/main/style.css)
+**CSS code:** [style.css](https://github.com/sinster23/Notesapp/blob/main/style.css)
 
-**JS code:** [notes.js](https://github.com/sinster23/Spotify-Clone/blob/main/spotify.js)
+**JS code:** [notes.js](https://github.com/sinster23/Notesapp/blob/main/script.js)
 
 
 

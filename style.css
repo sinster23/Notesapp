@@ -33,7 +33,7 @@
     height: 100vh;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fill,15.2rem);
+    grid-template-columns: repeat(auto-fill,16rem);
     gap: 5rem;
 }
 .addnote{
@@ -65,11 +65,23 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 15rem;
+    
     border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
     padding: 15px 20px 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.note .details{
+    height: 10rem;
+    overflow-y: auto;
+  }
+  .note .details::-webkit-scrollbar,
+  .popup textarea::-webkit-scrollbar{
+    width: 0;
+  }
+  .note .details:hover::-webkit-scrollbar,
+  .popup textarea:hover::-webkit-scrollbar{
+    width: 0;
+  }
 .details img{
     position: absolute;
     width: 3rem;
@@ -163,7 +175,7 @@ transform: scale(1);
     box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
     position: relative;
     transition: all 0.2s ease-in-out;
-    width: 22rem;
+    width: 24rem;
 }
 .startpop{
     padding: 1rem;
